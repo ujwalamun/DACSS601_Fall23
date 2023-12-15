@@ -14,14 +14,16 @@ When you click the **Render** button a document will be generated that includes 
 
 ```{r}
 
-name <- "World!"
+print("Making changes to quaro file")
 ```
 
 You can add options to executable code like this
 
 ```{r}
 #| echo: false
-paste("Hello", name)
+print("What did you have for today's lunch?")
+lunch <- "Chicken Tikka Masala"
+paste("I had", lunch, "for today's lunch")
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
